@@ -190,8 +190,8 @@ export default function App() {
   const initLoading = () => (
         <ContentCell>
           Preparing the wizard... <br /><br />
-          Agencies {agencies.length == 0 ? "loading..." : "loaded."} <br /><br />
-          KPI {kpis.length == 0 ? "loading..." : "loaded."}
+          Agencies {agencies.length === 0 ? "loading..." : "loaded."} <br /><br />
+          KPI {kpis.length === 0 ? "loading..." : "loaded."}
         </ContentCell>
       )
 
@@ -217,35 +217,35 @@ export default function App() {
   return (
     <div className="App">
       <div className="window" ref={window98} style={{ 
-            width: (window98state == "normal" ? "490px" 
-                 : window98state == "minimized" ? "200px"
-                 : window98state == "maximized" ? "100%"
+            width: (window98state === "normal" ? "490px" 
+                 : window98state === "minimized" ? "200px"
+                 : window98state === "maximized" ? "100%"
                  : "480px")
         }}>
         <div className="title-bar">
           <div className="title-bar-text">Custom DAG Wizard</div>
           <div className="title-bar-controls">
-            {window98state != "minimized" ?<button aria-label="Minimize" onClick={minimize}></button> : null}
-            {window98state != "maximized" && window98state != "minimized"  ? <button aria-label="Maximize" onClick={maximize}></button> : null}
-            {window98state != "normal" ? <button aria-label="Restore" onClick={restore}></button> : null}
+            {window98state !== "minimized" ?<button aria-label="Minimize" onClick={minimize}></button> : null}
+            {window98state !== "maximized" && window98state !== "minimized"  ? <button aria-label="Maximize" onClick={maximize}></button> : null}
+            {window98state !== "normal" ? <button aria-label="Restore" onClick={restore}></button> : null}
             <button aria-label="Close" onClick={close}></button>
           </div>
         </div>
-        <div className="window-body" style={{display: window98state == "minimized" ? "none" : "block"}}>
+        <div className="window-body" style={{display: window98state === "minimized" ? "none" : "block"}}>
         <Grid columns={12} flow="row dense">
           <Cell width={4} height={4}>
             <img src="/initial.png" alt="" />
           </Cell>
           <>
             {
-               currentStep == "loading" ? initLoading()
-             : currentStep == "initial" ? initStepInitial()
-             : currentStep == "agency" ? initStepAgency()
-             : currentStep == "date" ? initStepDate()
-             : currentStep == "task" ? initStepTasks()
-             : currentStep == "kpi" ? initStepKpi()
-             : currentStep == "end" ? initFinished()
-             : currentStep == "json" ? initStepJSON()
+               currentStep === "loading" ? initLoading()
+             : currentStep === "initial" ? initStepInitial()
+             : currentStep === "agency" ? initStepAgency()
+             : currentStep === "date" ? initStepDate()
+             : currentStep === "task" ? initStepTasks()
+             : currentStep === "kpi" ? initStepKpi()
+             : currentStep === "end" ? initFinished()
+             : currentStep === "json" ? initStepJSON()
              : <p>Step undefined !</p>
             }
           </>

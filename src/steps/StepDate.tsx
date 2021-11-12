@@ -39,7 +39,7 @@ const StepDate: React.FC<{
       ? "none"
       : "year_month";
   const initialYear =
-    initialPerimeterType == "year_month"
+    initialPerimeterType === "year_month"
       ? initialPerimeter[0].split("_")[0]
       : availableYears[0];
 
@@ -54,16 +54,16 @@ const StepDate: React.FC<{
   let [selectedMonths, setSelectedMonths] = useState(initialMonths);
 
   const onNext = () => {
-    if (selectedPerimeter == "year_month") {
+    if (selectedPerimeter === "year_month") {
       const year = `${selectedYear}`;
       const monthStrings =
-        selectedMonths.length == 0
+        selectedMonths.length === 0
           ? range(1, 12).map((m) => `${year}_${m}`)
           : selectedMonths.map((m) => `${year}_${m}`);
       onTimePerimeter(monthStrings);
-    } else if (selectedPerimeter == "all") {
+    } else if (selectedPerimeter === "all") {
       onTimePerimeter("all");
-    } else if (selectedPerimeter == "none") {
+    } else if (selectedPerimeter === "none") {
       onTimePerimeter([]);
     }
   };
@@ -79,8 +79,8 @@ const StepDate: React.FC<{
             .map((c) => c.name);
           setSelectedMonths(checkedMonths);
 
-          noneCheck.value = checkedMonths.length == 0;
-          allCheck.value = checkedMonths.length == 12;
+          noneCheck.value = checkedMonths.length === 0;
+          allCheck.value = checkedMonths.length === 12;
         },
         selectedMonths.includes(id)
       )
@@ -115,7 +115,7 @@ const StepDate: React.FC<{
       <ContentCell>
         <h2>Select time perimeter</h2>
 
-        <fieldset disabled={selectedPerimeter != "year_month"}>
+        <fieldset disabled={selectedPerimeter !== "year_month"}>
           <legend>
             <input
               type="radio"
@@ -169,7 +169,7 @@ const StepDate: React.FC<{
           id="all_perimeter_type"
           name="time_perimeter_type"
           value="all"
-          checked={selectedPerimeter == "all"}
+          checked={selectedPerimeter === "all"}
           onChange={(event) => setSelectedPerimeter(event.target.value)}
         />
         <label htmlFor="all_perimeter_type">
@@ -181,7 +181,7 @@ const StepDate: React.FC<{
           id="none_perimeter_type"
           name="time_perimeter_type"
           value="none"
-          checked={selectedPerimeter == "none"}
+          checked={selectedPerimeter === "none"}
           onChange={(event) => setSelectedPerimeter(event.target.value)}
         />
         <label htmlFor="none_perimeter_type">
