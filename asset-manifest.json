@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "static/css/main.78a25a31.chunk.css",
-    "main.js": "static/js/main.17efabfc.chunk.js",
-    "main.js.map": "static/js/main.17efabfc.chunk.js.map",
-    "runtime-main.js": "static/js/runtime-main.dcae383e.js",
-    "runtime-main.js.map": "static/js/runtime-main.dcae383e.js.map",
-    "static/css/2.19974535.chunk.css": "static/css/2.19974535.chunk.css",
-    "static/js/2.5c1b0b1d.chunk.js": "static/js/2.5c1b0b1d.chunk.js",
-    "static/js/2.5c1b0b1d.chunk.js.map": "static/js/2.5c1b0b1d.chunk.js.map",
-    "../../static/media/98.css": "../../static/media/ms_sans_serif_bold.9fbe7124.woff",
-    "index.html": "index.html",
-    "static/css/2.19974535.chunk.css.map": "static/css/2.19974535.chunk.css.map",
-    "static/css/main.78a25a31.chunk.css.map": "static/css/main.78a25a31.chunk.css.map",
-    "static/js/2.5c1b0b1d.chunk.js.LICENSE.txt": "static/js/2.5c1b0b1d.chunk.js.LICENSE.txt"
+    "main.css": "/custom_dag_98/static/css/main.78a25a31.chunk.css",
+    "main.js": "/custom_dag_98/static/js/main.8d706b00.chunk.js",
+    "main.js.map": "/custom_dag_98/static/js/main.8d706b00.chunk.js.map",
+    "runtime-main.js": "/custom_dag_98/static/js/runtime-main.8e79c3f9.js",
+    "runtime-main.js.map": "/custom_dag_98/static/js/runtime-main.8e79c3f9.js.map",
+    "static/css/2.67941b29.chunk.css": "/custom_dag_98/static/css/2.67941b29.chunk.css",
+    "static/js/2.06d387cd.chunk.js": "/custom_dag_98/static/js/2.06d387cd.chunk.js",
+    "static/js/2.06d387cd.chunk.js.map": "/custom_dag_98/static/js/2.06d387cd.chunk.js.map",
+    "index.html": "/custom_dag_98/index.html",
+    "static/css/2.67941b29.chunk.css.map": "/custom_dag_98/static/css/2.67941b29.chunk.css.map",
+    "static/css/main.78a25a31.chunk.css.map": "/custom_dag_98/static/css/main.78a25a31.chunk.css.map",
+    "static/js/2.06d387cd.chunk.js.LICENSE.txt": "/custom_dag_98/static/js/2.06d387cd.chunk.js.LICENSE.txt",
+    "static/media/initial.eca51b8e.png": "/custom_dag_98/static/media/initial.eca51b8e.png",
+    "static/media/98.css": "/custom_dag_98/static/media/ms_sans_serif_bold.9fbe7124.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.dcae383e.js",
-    "static/css/2.19974535.chunk.css",
-    "static/js/2.5c1b0b1d.chunk.js",
+    "static/js/runtime-main.8e79c3f9.js",
+    "static/css/2.67941b29.chunk.css",
+    "static/js/2.06d387cd.chunk.js",
     "static/css/main.78a25a31.chunk.css",
-    "static/js/main.17efabfc.chunk.js"
+    "static/js/main.8d706b00.chunk.js"
   ]
 }
