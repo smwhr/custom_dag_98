@@ -122,7 +122,7 @@ const StepDate: React.FC<{
               id="year_month_perimeter_type"
               name="time_perimeter_type"
               value="year_month"
-              checked={selectedPerimeter == "year_month"}
+              checked={selectedPerimeter === "year_month"}
               onChange={(event) => setSelectedPerimeter(event.target.value)}
             />
             <label htmlFor="year_month_perimeter_type">
