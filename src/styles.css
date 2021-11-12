@@ -26,10 +26,13 @@ fieldset ~ input[type=radio]+label {
 fieldset:disabled > legend > label{
   color: #222;
 }
-
+.window-body select{
+  margin-left: 0em;
+  padding-left: 0.7em;
+}
 label+select{
   margin-left: 0.5em;
-  padding-left: 0.5em;
+  
 }
 
 input[type=checkbox]+label {
