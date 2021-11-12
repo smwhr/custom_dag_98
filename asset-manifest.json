@@ -5,18 +5,18 @@
     "main.js.map": "static/js/main.17efabfc.chunk.js.map",
     "runtime-main.js": "static/js/runtime-main.dcae383e.js",
     "runtime-main.js.map": "static/js/runtime-main.dcae383e.js.map",
-    "static/css/2.e9bbd20f.chunk.css": "static/css/2.e9bbd20f.chunk.css",
+    "static/css/2.19974535.chunk.css": "static/css/2.19974535.chunk.css",
     "static/js/2.5c1b0b1d.chunk.js": "static/js/2.5c1b0b1d.chunk.js",
     "static/js/2.5c1b0b1d.chunk.js.map": "static/js/2.5c1b0b1d.chunk.js.map",
+    "../../static/media/98.css": "../../static/media/ms_sans_serif_bold.9fbe7124.woff",
     "index.html": "index.html",
-    "static/css/2.e9bbd20f.chunk.css.map": "static/css/2.e9bbd20f.chunk.css.map",
+    "static/css/2.19974535.chunk.css.map": "static/css/2.19974535.chunk.css.map",
     "static/css/main.78a25a31.chunk.css.map": "static/css/main.78a25a31.chunk.css.map",
-    "static/js/2.5c1b0b1d.chunk.js.LICENSE.txt": "static/js/2.5c1b0b1d.chunk.js.LICENSE.txt",
-    "static/media/98.css": "static/media/ms_sans_serif_bold.9fbe7124.woff"
+    "static/js/2.5c1b0b1d.chunk.js.LICENSE.txt": "static/js/2.5c1b0b1d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.dcae383e.js",
-    "static/css/2.e9bbd20f.chunk.css",
+    "static/css/2.19974535.chunk.css",
     "static/js/2.5c1b0b1d.chunk.js",
     "static/css/main.78a25a31.chunk.css",
     "static/js/main.17efabfc.chunk.js"
