@@ -1,6 +1,8 @@
 {
   "name": "custom-dag-98",
+  "homepage" : "http://smwhr.github.io/custom_dag_98",
   "version": "1.0.0",
+  "license": "MIT",
   "description": "",
   "keywords": [],
   "main": "src/index.tsx",

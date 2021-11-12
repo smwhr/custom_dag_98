@@ -2,6 +2,7 @@ import "./styles.css";
 import "98.css";
 import { useEffect, useReducer, useRef, useState } from "react";
 import { range } from "./utils";
+import leftImage from "./media/initial.png";
 
 import { Cell, Grid } from "styled-css-grid";
 
@@ -234,7 +235,7 @@ export default function App() {
         <div className="window-body" style={{display: window98state === "minimized" ? "none" : "block"}}>
         <Grid columns={12} flow="row dense">
           <Cell width={4} height={4}>
-            <img src="initial.png" alt="" />
+            <img src={leftImage} alt="" />
           </Cell>
           <>
             {
