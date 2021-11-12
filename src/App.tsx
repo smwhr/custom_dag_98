@@ -234,7 +234,7 @@ export default function App() {
         <div className="window-body" style={{display: window98state === "minimized" ? "none" : "block"}}>
         <Grid columns={12} flow="row dense">
           <Cell width={4} height={4}>
-            <img src="/initial.png" alt="" />
+            <img src="initial.png" alt="" />
           </Cell>
           <>
             {
