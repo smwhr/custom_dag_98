@@ -1,0 +1,1 @@
+type Step = "loading" | "initial" | "agency" | "date" | "task" | "kpi" | "end" | "json";
