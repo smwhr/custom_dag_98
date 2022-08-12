@@ -43,7 +43,7 @@ export default function App() {
 
   useEffect(() => {
     console.log("Fetching agencies");
-    const loadAgency = fetch("https://all-agencies.gateway.cit.io/agency.json")
+    const loadAgency = fetch("https://django.gateway.staging.cit.io/agencies/")
       .then((data) => data.json())
       .then((data: { name: string }[]) => data.map((d) => d.name))
       .then((names) => setAgencies(names.sort()));
